@@ -1,39 +1,114 @@
 const projectData = {
     ruler: {
-        title: "Thước Kẻ Sáng Tạo",
-        materials: ["Thước gỗ trắng hoặc nhựa nhám", "Bút dạ nhiều màu", "Nhãn dán (Stickers)", "Sơn bóng hoặc băng keo trong"],
-        tools: ["Kéo", "Khăn lau"],
-        steps: [
-            "Lau sạch bề mặt thước để mực bám tốt hơn.",
-            "Dùng bút dạ vẽ các họa tiết yêu thích (ngôi sao, hoa, hình học).",
-            "Dán nhãn dán ở những khoảng trống nếu muốn.",
-            "Phủ một lớp băng keo trong hoặc sơn bóng để bảo vệ hình vẽ."
+        title: "THƯỚC KẺ",
+        materials: [
+            { name: "Bìa Fomex", image: "data/[VẬT LIỆU] BÌA FOMEX.png" },
+            { name: "Giấy màu", image: "data/[VẬT LIỆU] GIẤY MÀU.png" }
         ],
-        videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ" // Placeholder
+        tools: [
+            { name: "Thước kẻ", image: "data/[DỤNG CỤ] THƯỚC KẺ.png" },
+            { name: "Bút màu", image: "data/[DỤNG CỤ] BÚT MÀU.png" },
+            { name: "Kéo", image: "data/[DỤNG CỤ] KÉO.png" }
+        ],
+        steps: [
+            "Chuẩn bị bìa Fomex và cắt theo kích thước thước kẻ mong muốn.",
+            "Dùng giấy màu bọc quanh để tạo nền sinh động.",
+            "Dùng thước và bút màu vẽ vạch chia độ chính xác.",
+            "Trang trí thêm các hình vẽ sáng tạo ở phần còn trống."
+        ],
+        videoUrl: "data/VIDOE LÀM THƯỚC KẺ.mp4"
     },
-    pen: {
-        title: "Bút Viết Trang Trí",
-        materials: ["Bút bi thông thường", "Dây ruy băng nhỏ", "Cúc áo màu sắc", "Keo nến"],
-        tools: ["Súng bắn keo", "Kéo"],
-        steps: [
-            "Quấn ruy băng quanh thân bút từ dưới lên trên.",
-            "Dùng súng bắn keo cố định hai đầu dây ruy băng.",
-            "Dán thêm cúc áo hoặc các quả bông nhỏ lên đỉnh bút.",
-            "Kiểm tra xem bút có bị vướng khi cầm viết hay không."
+    multiplication_table: {
+        title: "BẢNG CỬU CHƯƠNG",
+        materials: [
+            { name: "Bìa Fomex", image: "data/[VẬT LIỆU] BÌA FOMEX.png" },
+            { name: "Giấy màu", image: "data/[VẬT LIỆU] GIẤY MÀU.png" }
         ],
-        videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ" // Placeholder
+        tools: [
+            { name: "Bút màu", image: "data/[DỤNG CỤ] BÚT MÀU.png" },
+            { name: "Băng dính 2 mặt", image: "data/[DỤNG CỤ] BĂNG DÍNH HAI MẶT.png" },
+            { name: "Thước kẻ", image: "data/[DỤNG CỤ] THƯỚC KẺ.png" }
+        ],
+        steps: [
+            "Cắt bìa Fomex thành tấm lớn hình chữ nhật.",
+            "Dùng thước kẻ chia ô đều đặn cho bảng tính.",
+            "Viết các phép tính bảng cửu chương bằng bút nhiều màu.",
+            "Dùng giấy màu và băng dính để trang trí viền bảng."
+        ],
+        videoUrl: "data/VIDEO LÀM BẢNG CỬU CHƯƠNG.mp4"
     },
     pen_holder: {
-        title: "Ống Đựng Bút Tái Chế",
-        materials: ["Lon sữa cũ hoặc lõi giấy vệ sinh", "Giấy màu thủ công", "Dây thừng nhỏ (len)", "Cườm hoặc hạt trang trí"],
-        tools: ["Keo dán giấy", "Súng bắn keo", "Thước đo"],
-        steps: [
-            "Đo kích thước lon và cắt giấy màu vừa vặn.",
-            "Dán giấy màu chắc chắn quanh thân lon.",
-            "Quấn dây thừng ở phần viền để tạo điểm nhấn cổ điển.",
-            "Sắp xếp và dán các hạt cườm theo ý thích."
+        title: "ỐNG ĐỰNG BÚT",
+        materials: [
+            { name: "Lõi giấy vệ sinh", image: "data/[VẬT LIỆU] LÕI GIẤY VỆ SINH.png" },
+            { name: "Que kem", image: "data/[VẬT LIỆU] QUE KEM.png" },
+            { name: "Giấy màu", image: "data/[VẬT LIỆU] GIẤY MÀU.png" }
         ],
-        videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ" // Placeholder
+        tools: [
+            { name: "Băng dính 2 mặt", image: "data/[DỤNG CỤ] BĂNG DÍNH HAI MẶT.png" },
+            { name: "Kéo", image: "data/[DỤNG CỤ] KÉO.png" }
+        ],
+        steps: [
+            "Dùng băng dính hai mặt dán xung quanh lõi giấy.",
+            "Xếp các que kem đều nhau bao quanh lõi giấy vệ sinh.",
+            "Trang trí mặt ngoài que kem bằng giấy màu hoặc vẽ hình.",
+            "Kiểm tra độ chắc chắn của đáy ống trước khi sử dụng."
+        ],
+        videoUrl: "data/VIDEO LÀM ỐNG ĐỰNG BÚT.mp4"
+    },
+    bookmark: {
+        title: "THẺ ĐÁNH DẤU TRANG",
+        materials: [
+            { name: "Giấy màu", image: "data/[VẬT LIỆU] GIẤY MÀU.png" },
+            { name: "Bìa Fomex mỏng", image: "data/[VẬT LIỆU] BÌA FOMEX.png" }
+        ],
+        tools: [
+            { name: "Kéo", image: "data/[DỤNG CỤ] KÉO.png" },
+            { name: "Bút màu", image: "data/[DỤNG CỤ] BÚT MÀU.png" }
+        ],
+        steps: [
+            "Cắt giấy màu hoặc bìa Fomex thành hình thẻ mong muốn.",
+            "Vẽ các họa tiết hoặc nhân vật yêu thích lên mặt thẻ.",
+            "Có thể đục lỗ ở đầu và luồn thêm sợi dây trang trí.",
+            "Ép thêm một lớp nhựa mỏng nếu muốn giữ thẻ được lâu."
+        ],
+        videoUrl: "data/VIDEO LÀM THẺ ĐÁNH DẤU TRANG.mp4"
+    },
+    notebook: {
+        title: "SỔ TAY HANDMADE",
+        materials: [
+            { name: "Giấy màu", image: "data/[VẬT LIỆU] GIẤY MÀU.png" },
+            { name: "Bìa Fomex", image: "data/[VẬT LIỆU] BÌA FOMEX.png" }
+        ],
+        tools: [
+            { name: "Băng dính 2 mặt", image: "data/[DỤNG CỤ] BĂNG DÍNH HAI MẶT.png" },
+            { name: "Kéo", image: "data/[DỤNG CỤ] KÉO.png" }
+        ],
+        steps: [
+            "Gấp đôi các tờ giấy màu lại làm ruột sổ.",
+            "Cắt bìa Fomex làm bìa cứng cho cuốn sổ.",
+            "Dùng băng dính hai mặt cố định phần gáy sổ vào bìa.",
+            "Trang trí mặt ngoài bìa sổ thật ấn tượng."
+        ],
+        videoUrl: "" // Chưa có video địa phương
+    },
+    pencil_case: {
+        title: "TÚI ĐỰNG BÚT",
+        materials: [
+            { name: "Giấy màu", image: "data/[VẬT LIỆU] GIẤY MÀU.png" },
+            { name: "Bìa Fomex", image: "data/[VẬT LIỆU] BÌA FOMEX.png" }
+        ],
+        tools: [
+            { name: "Băng dính 2 mặt", image: "data/[DỤNG CỤ] BĂNG DÍNH HAI MẶT.png" },
+            { name: "Kéo", image: "data/[DỤNG CỤ] KÉO.png" }
+        ],
+        steps: [
+            "Cắt miếng bìa Fomex theo hình dạng túi đựng bút.",
+            "Gấp và dán các mép lại bằng băng dính hai mặt chắc chắn.",
+            "Dùng giấy màu trang trí các họa tiết bên ngoài.",
+            "Có thể gắn thêm khuy hoặc khóa dán để đóng mở túi."
+        ],
+        videoUrl: "" // Chưa có video địa phương
     }
 };
 
@@ -46,7 +121,7 @@ cards.forEach(card => {
     card.addEventListener("click", () => {
         const itemKey = card.getAttribute("data-item");
         const data = projectData[itemKey];
-        
+
         if (data) {
             renderModal(data);
             modal.style.display = "block";
@@ -54,17 +129,39 @@ cards.forEach(card => {
     });
 });
 
-closeBtn.onclick = function() {
+closeBtn.onclick = function () {
     modal.style.display = "none";
 }
 
-window.onclick = function(event) {
+window.onclick = function (event) {
     if (event.target == modal) {
         modal.style.display = "none";
     }
 }
 
 function renderModal(data) {
+    let videoHTML = "";
+    if (data.videoUrl) {
+        if (data.videoUrl.endsWith(".mp4")) {
+            videoHTML = `
+                <div class="video-container">
+                    <video controls>
+                        <source src="${data.videoUrl}" type="video/mp4">
+                        Trình duyệt của bạn không hỗ trợ thẻ video.
+                    </video>
+                </div>
+            `;
+        } else {
+            videoHTML = `
+                <div class="video-container iframe-mode">
+                    <iframe src="${data.videoUrl}" frameborder="0" allowfullscreen></iframe>
+                </div>
+            `;
+        }
+    } else {
+        videoHTML = `<p style="text-align: center; color: #636e72;">Video hướng dẫn đang được cập nhật...</p>`;
+    }
+
     modalBody.innerHTML = `
         <div class="detail-header">
             <h2>${data.title}</h2>
@@ -73,11 +170,23 @@ function renderModal(data) {
             <div>
                 <span class="section-title">📦 Vật liệu:</span>
                 <ul class="materials">
-                    ${data.materials.map(m => `<li>${m}</li>`).join('')}
+                    ${data.materials.map(m => `
+                        <li class="item-card">
+                            <img src="${m.image}" alt="${m.name}">
+                            <p>${m.name}</p>
+                        </li>
+                    `).join('')}
                 </ul>
                 <br>
                 <span class="section-title">🛠️ Dụng cụ:</span>
-                <p>${data.tools.join(", ")}</p>
+                <ul class="tools">
+                    ${data.tools.map(t => `
+                        <li class="item-card">
+                            <img src="${t.image}" alt="${t.name}">
+                            <p>${t.name}</p>
+                        </li>
+                    `).join('')}
+                </ul>
             </div>
             <div>
                 <span class="section-title">📝 Các bước thực hiện:</span>
@@ -88,9 +197,7 @@ function renderModal(data) {
         </div>
         <div style="margin-top: 2rem;">
             <span class="section-title">🎥 Video hướng dẫn:</span>
-            <div class="video-container">
-                <iframe src="${data.videoUrl}" frameborder="0" allowfullscreen></iframe>
-            </div>
+            ${videoHTML}
         </div>
     `;
 }
