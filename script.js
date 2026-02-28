@@ -2,13 +2,13 @@ const projectData = {
     ruler: {
         title: "THƯỚC KẺ",
         materials: [
-            { name: "Bìa Fomex", image: "data/[VẬT LIỆU] BÌA FOMEX.png" },
-            { name: "Giấy màu", image: "data/[VẬT LIỆU] GIẤY MÀU.png" }
+            { name: "Bìa Fomex", image: "data/vat_lieu_bia_fomex.png" },
+            { name: "Giấy màu", image: "data/vat_lieu_giay_mau.png" }
         ],
         tools: [
-            { name: "Thước kẻ", image: "data/[DỤNG CỤ] THƯỚC KẺ.png" },
-            { name: "Bút màu", image: "data/[DỤNG CỤ] BÚT MÀU.png" },
-            { name: "Kéo", image: "data/[DỤNG CỤ] KÉO.png" }
+            { name: "Thước kẻ", image: "data/dung_cu_thuoc_ke.png" },
+            { name: "Bút màu", image: "data/dung_cu_but_mau.png" },
+            { name: "Kéo", image: "data/dung_cu_keo.png" }
         ],
         steps: [
             "Chuẩn bị bìa Fomex và cắt theo kích thước thước kẻ mong muốn.",
@@ -16,18 +16,18 @@ const projectData = {
             "Dùng thước và bút màu vẽ vạch chia độ chính xác.",
             "Trang trí thêm các hình vẽ sáng tạo ở phần còn trống."
         ],
-        videoUrl: "data/VIDOE LÀM THƯỚC KẺ.mp4"
+        videoUrl: "data/video_thuoc_ke.mp4"
     },
     multiplication_table: {
         title: "BẢNG CỬU CHƯƠNG",
         materials: [
-            { name: "Bìa Fomex", image: "data/[VẬT LIỆU] BÌA FOMEX.png" },
-            { name: "Giấy màu", image: "data/[VẬT LIỆU] GIẤY MÀU.png" }
+            { name: "Bìa Fomex", image: "data/vat_lieu_bia_fomex.png" },
+            { name: "Giấy màu", image: "data/vat_lieu_giay_mau.png" }
         ],
         tools: [
-            { name: "Bút màu", image: "data/[DỤNG CỤ] BÚT MÀU.png" },
-            { name: "Băng dính 2 mặt", image: "data/[DỤNG CỤ] BĂNG DÍNH HAI MẶT.png" },
-            { name: "Thước kẻ", image: "data/[DỤNG CỤ] THƯỚC KẺ.png" }
+            { name: "Bút màu", image: "data/dung_cu_but_mau.png" },
+            { name: "Băng dính 2 mặt", image: "data/dung_cu_bang_dinh_2_mat.png" },
+            { name: "Thước kẻ", image: "data/dung_cu_thuoc_ke.png" }
         ],
         steps: [
             "Cắt bìa Fomex thành tấm lớn hình chữ nhật.",
@@ -35,18 +35,18 @@ const projectData = {
             "Viết các phép tính bảng cửu chương bằng bút nhiều màu.",
             "Dùng giấy màu và băng dính để trang trí viền bảng."
         ],
-        videoUrl: "data/VIDEO LÀM BẢNG CỬU CHƯƠNG.mp4"
+        videoUrl: "data/video_bang_cuu_chuong.mp4"
     },
     pen_holder: {
         title: "ỐNG ĐỰNG BÚT",
         materials: [
-            { name: "Lõi giấy vệ sinh", image: "data/[VẬT LIỆU] LÕI GIẤY VỆ SINH.png" },
-            { name: "Que kem", image: "data/[VẬT LIỆU] QUE KEM.png" },
-            { name: "Giấy màu", image: "data/[VẬT LIỆU] GIẤY MÀU.png" }
+            { name: "Lõi giấy vệ sinh", image: "data/vat_lieu_loi_giay_ve_sinh.png" },
+            { name: "Que kem", image: "data/vat_lieu_que_kem.png" },
+            { name: "Giấy màu", image: "data/vat_lieu_giay_mau.png" }
         ],
         tools: [
-            { name: "Băng dính 2 mặt", image: "data/[DỤNG CỤ] BĂNG DÍNH HAI MẶT.png" },
-            { name: "Kéo", image: "data/[DỤNG CỤ] KÉO.png" }
+            { name: "Băng dính 2 mặt", image: "data/dung_cu_bang_dinh_2_mat.png" },
+            { name: "Kéo", image: "data/dung_cu_keo.png" }
         ],
         steps: [
             "Dùng băng dính hai mặt dán xung quanh lõi giấy.",
@@ -54,17 +54,17 @@ const projectData = {
             "Trang trí mặt ngoài que kem bằng giấy màu hoặc vẽ hình.",
             "Kiểm tra độ chắc chắn của đáy ống trước khi sử dụng."
         ],
-        videoUrl: "data/VIDEO LÀM ỐNG ĐỰNG BÚT.mp4"
+        videoUrl: "data/video_ong_dung_but.mp4"
     },
     bookmark: {
         title: "THẺ ĐÁNH DẤU TRANG",
         materials: [
-            { name: "Giấy màu", image: "data/[VẬT LIỆU] GIẤY MÀU.png" },
-            { name: "Bìa Fomex mỏng", image: "data/[VẬT LIỆU] BÌA FOMEX.png" }
+            { name: "Giấy màu", image: "data/vat_lieu_giay_mau.png" },
+            { name: "Bìa Fomex mỏng", image: "data/vat_lieu_bia_fomex.png" }
         ],
         tools: [
-            { name: "Kéo", image: "data/[DỤNG CỤ] KÉO.png" },
-            { name: "Bút màu", image: "data/[DỤNG CỤ] BÚT MÀU.png" }
+            { name: "Kéo", image: "data/dung_cu_keo.png" },
+            { name: "Bút màu", image: "data/dung_cu_but_mau.png" }
         ],
         steps: [
             "Cắt giấy màu hoặc bìa Fomex thành hình thẻ mong muốn.",
@@ -72,17 +72,17 @@ const projectData = {
             "Có thể đục lỗ ở đầu và luồn thêm sợi dây trang trí.",
             "Ép thêm một lớp nhựa mỏng nếu muốn giữ thẻ được lâu."
         ],
-        videoUrl: "data/VIDEO LÀM THẺ ĐÁNH DẤU TRANG.mp4"
+        videoUrl: "data/video_the_danh_dau_trang.mp4"
     },
     notebook: {
         title: "SỔ TAY HANDMADE",
         materials: [
-            { name: "Giấy màu", image: "data/[VẬT LIỆU] GIẤY MÀU.png" },
-            { name: "Bìa Fomex", image: "data/[VẬT LIỆU] BÌA FOMEX.png" }
+            { name: "Giấy màu", image: "data/vat_lieu_giay_mau.png" },
+            { name: "Bìa Fomex", image: "data/vat_lieu_bia_fomex.png" }
         ],
         tools: [
-            { name: "Băng dính 2 mặt", image: "data/[DỤNG CỤ] BĂNG DÍNH HAI MẶT.png" },
-            { name: "Kéo", image: "data/[DỤNG CỤ] KÉO.png" }
+            { name: "Băng dính 2 mặt", image: "data/dung_cu_bang_dinh_2_mat.png" },
+            { name: "Kéo", image: "data/dung_cu_keo.png" }
         ],
         steps: [
             "Gấp đôi các tờ giấy màu lại làm ruột sổ.",
@@ -95,12 +95,12 @@ const projectData = {
     pencil_case: {
         title: "TÚI ĐỰNG BÚT",
         materials: [
-            { name: "Giấy màu", image: "data/[VẬT LIỆU] GIẤY MÀU.png" },
-            { name: "Bìa Fomex", image: "data/[VẬT LIỆU] BÌA FOMEX.png" }
+            { name: "Giấy màu", image: "data/vat_lieu_giay_mau.png" },
+            { name: "Bìa Fomex", image: "data/vat_lieu_bia_fomex.png" }
         ],
         tools: [
-            { name: "Băng dính 2 mặt", image: "data/[DỤNG CỤ] BĂNG DÍNH HAI MẶT.png" },
-            { name: "Kéo", image: "data/[DỤNG CỤ] KÉO.png" }
+            { name: "Băng dính 2 mặt", image: "data/dung_cu_bang_dinh_2_mat.png" },
+            { name: "Kéo", image: "data/dung_cu_keo.png" }
         ],
         steps: [
             "Cắt miếng bìa Fomex theo hình dạng túi đựng bút.",
