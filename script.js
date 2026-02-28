@@ -8,7 +8,8 @@ const projectData = {
         tools: [
             { name: "Thước kẻ", image: "data/dung_cu_thuoc_ke.png" },
             { name: "Bút màu", image: "data/dung_cu_but_mau.png" },
-            { name: "Kéo", image: "data/dung_cu_keo.png" }
+            { name: "Kéo", image: "data/dung_cu_keo.png" },
+            { name: "Băng dính 2 mặt", image: "data/dung_cu_bang_dinh_2_mat.png" }
         ],
         steps: [
             "Chuẩn bị bìa Fomex và cắt theo kích thước thước kẻ mong muốn.",
@@ -27,7 +28,8 @@ const projectData = {
         tools: [
             { name: "Bút màu", image: "data/dung_cu_but_mau.png" },
             { name: "Băng dính 2 mặt", image: "data/dung_cu_bang_dinh_2_mat.png" },
-            { name: "Thước kẻ", image: "data/dung_cu_thuoc_ke.png" }
+            { name: "Thước kẻ", image: "data/dung_cu_thuoc_ke.png" },
+            { name: "Kéo", image: "data/dung_cu_keo.png" }
         ],
         steps: [
             "Cắt bìa Fomex thành tấm lớn hình chữ nhật.",
@@ -41,11 +43,13 @@ const projectData = {
         title: "ỐNG ĐỰNG BÚT",
         materials: [
             { name: "Lõi giấy vệ sinh", image: "data/vat_lieu_loi_giay_ve_sinh.png" },
-            { name: "Que kem", image: "data/vat_lieu_que_kem.png" },
+            { name: "Bìa Fomex mỏng", image: "data/vat_lieu_bia_fomex.png" },
             { name: "Giấy màu", image: "data/vat_lieu_giay_mau.png" }
         ],
         tools: [
+            { name: "Bút màu", image: "data/dung_cu_but_mau.png" },
             { name: "Băng dính 2 mặt", image: "data/dung_cu_bang_dinh_2_mat.png" },
+            { name: "Thước kẻ", image: "data/dung_cu_thuoc_ke.png" },
             { name: "Kéo", image: "data/dung_cu_keo.png" }
         ],
         steps: [
@@ -60,11 +64,14 @@ const projectData = {
         title: "THẺ ĐÁNH DẤU TRANG",
         materials: [
             { name: "Giấy màu", image: "data/vat_lieu_giay_mau.png" },
-            { name: "Bìa Fomex mỏng", image: "data/vat_lieu_bia_fomex.png" }
+            { name: "Bìa Fomex mỏng", image: "data/vat_lieu_bia_fomex.png" },
+            { name: "Que kem", image: "data/vat_lieu_que_kem.png" }
         ],
         tools: [
-            { name: "Kéo", image: "data/dung_cu_keo.png" },
-            { name: "Bút màu", image: "data/dung_cu_but_mau.png" }
+            { name: "Thước kẻ", image: "data/dung_cu_thuoc_ke.png" },
+            { name: "Bút màu", image: "data/dung_cu_but_mau.png" },
+            { name: "Băng dính 2 mặt", image: "data/dung_cu_bang_dinh_2_mat.png" },
+            { name: "Kéo", image: "data/dung_cu_keo.png" }
         ],
         steps: [
             "Cắt giấy màu hoặc bìa Fomex thành hình thẻ mong muốn.",
